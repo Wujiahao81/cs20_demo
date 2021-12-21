@@ -3,21 +3,21 @@
     alt_text "Kamigo Demo 向您傳送了訊息"
     bubble do
       body do
-        text "Kamigo Demo", wrap: true, weight: :bold
+        text "頂石雲端", wrap: true, weight: :bold
 
         separator color: "#eeeeee"
 
-        text "這是展示 Kamigo LINE Bot 框架的 LINE Bot，歡迎試用。", wrap: true, size: :sm, margin: :lg
+        text "這是使用 Kamigo 框架開發的 LINE Bot，歡迎試用。", wrap: true, size: :sm, margin: :lg
 
         separator color: "#eeeeee"
 
         horizontal_box margin: :lg do
           message_button "功能目錄", "目錄", style: :primary
-          url_button "查看原始碼", "https://github.com/etrex/kamigo_demo", style: :primary, margin: :md
+          url_button "查看原始碼", "https://github.com/Wujiahao81/justin_wu_demo", style: :primary, margin: :md
         end
 
         horizontal_box margin: :lg do
-          url_button "聯絡作者", "https://www.facebook.com/the.kamiger", style: :primary
+          url_button "聯絡作者", "https://www.instagram.com/_justin_wu/", style: :primary
           url_button "分享給好友", safe_liff_path(path: "/share_bot", liff_size: :compact), style: :primary, margin: :md
         end
       end
