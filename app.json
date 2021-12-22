@@ -1,8 +1,8 @@
 {
-  "name": "kamigo demo",
-  "description": "一個使用 kamigo 建立 LINE 聊天機器人的範例",
-  "repository": "https://github.com/etrex/kamigo_demo",
-  "logo": "https://www.kamigo.tw/assets/kamigo-c3b10dff4cdb60fa447496b22edad6c32fffde96de20262efba690892e4461e8.png",
+  "name": "CS-20測試版本",
+  "description": "頂石雲端通知機器人",
+  "repository": "https://github.com/Wujiahao81/cs20_demo",
+  "logo": "https://user-images.strikinglycdn.com/res/hrscywv4p/image/upload/c_limit,fl_lossy,h_300,w_300,f_auto,q_auto/1487003/397335_995431.png",
   "keywords": ["ruby", "rails", "LINE Bot"],
   "env": {
     "LINE_CHANNEL_SECRET": {
