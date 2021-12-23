@@ -72,7 +72,7 @@ module HomeHelper
   # 分享機器人
   def kamiflex_share_bot
     Kamiflex.hash(self) do
-      alt_text "Kamigo Demo 向您傳送了聯絡資訊"
+      alt_text "cs20_demo 向您傳送了聯絡資訊"
       bubble do
         body do
           horizontal_box do
@@ -80,7 +80,7 @@ module HomeHelper
             url_button "分享此訊息", safe_liff_path(path: "/share_bot?message_name=kamiflex_share_bot", liff_size: :compact), style: :primary, margin: :md
           end
           separator
-          text "這是展示 Kamigo LINE Bot 框架的 LINE Bot，歡迎試用。", wrap: true, size: :sm, margin: :lg
+          text "這是測試版的 CS-20，歡迎試用。", wrap: true, size: :sm, margin: :lg
           horizontal_box action: uri_action("https://line.me/R/ti/p/#{ENV["BOT_ID"]}"), borderColor: "#AAAAAA", borderWidth: :light, cornerRadius: :lg, margin: :xl do
             horizontal_box paddingAll: "10px" do
               horizontal_box cornerRadius: :xxl, width: "40px", height: "40px" do
