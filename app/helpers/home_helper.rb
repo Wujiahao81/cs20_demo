@@ -76,7 +76,7 @@ module HomeHelper
       bubble do
         body do
           horizontal_box do
-            text "Kamigo Demo", wrap: true, weight: :bold
+            text "cs20_demo", wrap: true, weight: :bold
             url_button "分享此訊息", safe_liff_path(path: "/share_bot?message_name=kamiflex_share_bot", liff_size: :compact), style: :primary, margin: :md
           end
           separator
@@ -86,7 +86,7 @@ module HomeHelper
               horizontal_box cornerRadius: :xxl, width: "40px", height: "40px" do
                 image "https://#{request.host}/images/kamigo.png", size: :full
               end
-              text "Kamigo Demo", wrap: true, size: :lg, margin: :md, gravity: :center, weight: :bold, flex: 3
+              text "cs20_demo", wrap: true, size: :lg, margin: :md, gravity: :center, weight: :bold, flex: 3
               text ">", color: "#AAAAAA", wrap: true, size: :md, gravity: :center, align: :end
             end
           end
