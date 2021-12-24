@@ -84,7 +84,7 @@ module HomeHelper
           horizontal_box action: uri_action("https://line.me/R/ti/p/#{ENV["BOT_ID"]}"), borderColor: "#AAAAAA", borderWidth: :light, cornerRadius: :lg, margin: :xl do
             horizontal_box paddingAll: "10px" do
               horizontal_box cornerRadius: :xxl, width: "40px", height: "40px" do
-                image "https://#{request.host}/CSLOGO.png", size: :full
+                image "https://#{request.host}/images/CSLOGO.png", size: :full
               end
               text "cs20_demo", wrap: true, size: :lg, margin: :md, gravity: :center, weight: :bold, flex: 3
               text ">", color: "#AAAAAA", wrap: true, size: :md, gravity: :center, align: :end
