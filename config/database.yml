@@ -12,6 +12,8 @@ default: &default
 development:
   <<: *default
   database: kamigo_demo_development
+  username: postgres
+  password: 666666cs
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -19,6 +21,8 @@ development:
 test:
   <<: *default
   database: kamigo_demo_test
+  username: postgres
+  password: 666666cs
 
 production:
   <<: *default
