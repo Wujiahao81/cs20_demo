@@ -1,2 +1,2 @@
-# hao_herokutest
-Test version of line bot (CS BOT) 
+# cs20_demo
+Test version of line bot (cs20_demo)
